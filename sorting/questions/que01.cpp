@@ -37,4 +37,28 @@ int main(){
     for(auto a:arr){
         cout<<a<<" ";
     }
+
+    //if it is mentioned in the que that arr contains only positive no then go through approach 1
+    // int x=0;
+    // for(int i=0;i<n;i++){ //traverse in arr
+    //     int min=INT_MAX;
+    //     int mindx=-1;
+    //     for(int j=0;j<n;j++){ //traverse in vector
+    //         if(arr[j]<=0) continue;
+    //         else{
+    //             if(arr[j]<min){
+    //                 min=arr[j];
+    //                 mindx=j;
+    //             }
+    //         }
+    //     }
+    //     arr[mindx]=-x;
+    //     x++;
+    // }
+    // cout<<"The replaced arr is:";
+    // for(auto a:arr){
+    //     a=-a;
+    //     cout<<a<<" ";
+    // }
+
 }
